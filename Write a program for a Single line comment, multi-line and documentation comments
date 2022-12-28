@@ -1,0 +1,14 @@
+public class MyClass{
+    public static void main(String args[]) {
+        
+        //Single line comment
+        System.out.println("Singel line comment is above");
+        /*Multi line comments*/
+        System.out.println("Multi line comments is above");
+        /** Document comments 
+         these are the 3 types of comments*/
+        System.out.println("Document comments is above");
+      //System.out.println("My name is Shashank Reddy");
+      
+    }
+}
