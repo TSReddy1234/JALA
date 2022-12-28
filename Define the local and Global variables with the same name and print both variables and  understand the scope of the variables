@@ -1,0 +1,12 @@
+public class MyClass{
+    String var = "My name is ";
+    public static void main(String args[]) {
+        String var = "Shashank";
+        
+        MyClass obj = new MyClass();
+        System.out.println(obj.var);
+        System.out.println(var);
+      
+      
+    }
+}
