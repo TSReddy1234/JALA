@@ -1,0 +1,25 @@
+public class test {
+   
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        int z = 30;
+        System.out.println("x, y, z : "+x+" , "+y+" , "+z);
+        //Logical AND
+        if(z>x && z>y)
+        {
+            System.out.println("z is greater than x and y");
+        }
+        // Logical OR
+        if(y>x || y>z)
+        {
+            System.out.println("y is greater than x or z");
+        }
+        // Logical Not
+        if(!(z<x))
+        {
+            System.out.println("As per our inputs z is greated than x but as we are using the Logical Not operator here");
+        }
+    }
+}
+
